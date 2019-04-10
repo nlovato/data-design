@@ -11,7 +11,7 @@
 
 		<h3><a href="persona.php">Persona</a</h3>
 		<h3><a href="userstory.php">User Story</a</h3>
-		<h3><a href="usercase.php">User Story</a</h3>
+		<h3><a href="usercase.php">User Case</a</h3>
 
 	</body>
 
