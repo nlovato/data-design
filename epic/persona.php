@@ -39,6 +39,8 @@
 
 		<h2><a href="userstory.php">User Story</a></h2>
 
+		<h5><a href="directory.php">Back to Directory</a</h5>
+
 
 	</body>
 </html>
