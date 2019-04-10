@@ -10,6 +10,9 @@
 
 		<h2>User Story:</h2>
 
+		<br>
+		<br>
+
 		<p>As a power user, Harley would like the ability to add merchandise and apparel to a wishlist.</p>
 
 		<br>
