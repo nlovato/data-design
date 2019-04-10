@@ -12,7 +12,7 @@
 
 		<h2>User: Harley Quinn</h2>
 
-		<img src="HarleyQ.jpg" width=" 200px" alt="Harley Quinzel">
+		<img src="HarleyQ.jpg" width=" 250px" alt="Harley Quinzel">
 
 		<ul>
 			<li><strong>Name:</strong> Harley Quinn</li>
