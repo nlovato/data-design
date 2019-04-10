@@ -15,7 +15,7 @@
 		<img src="../HarleyQ.jpg" width=" 250px" alt="Harley Quinzel">
 
 		<ul>
-			<li><strong>Name:</strong> <em>Harley Quinn</em></li>
+			<li><strong>Name:</strong> <em>Harley Quinn</em> </li>
 			<li><strong>Age:</strong> 27</li>
 			<li><strong>Gender:</strong> Female</li>
 			<li><strong>Ethnicity:</strong> Caucasian</li>
