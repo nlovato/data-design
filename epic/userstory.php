@@ -14,6 +14,11 @@
 
 		<h2><a href="usercase.php">User Case/Interaction Flow</a></h2>
 
+		<br>
+		<br>
+		<br>
+		<br>
+
 		<h5><a href="directory.php">Back to Directory</a</h5>
 
 	</body>
