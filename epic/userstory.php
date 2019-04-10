@@ -12,6 +12,10 @@
 
 		<p>As a power user, Harley would like the ability to add merchandise and apparel to a wishlist.</p>
 
+		<br>
+		<br>
+		<br>
+
 		<h2><a href="usercase.php">User Case/Interaction Flow</a></h2>
 
 		<br>
