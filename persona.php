@@ -37,7 +37,7 @@
 			</ul>
 		</ul>
 
-		<h2><a href="./page2.html">User Story</a></h2>
+		<h2><a href="userstory.php">User Story</a></h2>
 
 
 	</body>
