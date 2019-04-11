@@ -25,7 +25,7 @@
 			<li>Harley enters www.amazon.com into her web browser.</li>
 			<li>Server returns Amazon's main web page.</li>
 			<li>Harley selects profile to access "Wishlist" & sees that her wishlist is empty.</li>
-			<lil>Harley adds an accessory along with a few apparel items to wishlist.</lil>
+			<li>Harley adds an accessory along with a few apparel items to wishlist.</li>
 			<li>Harley then sees her selected items in her wishlist.</li>
 			<li>Server loads Harley's wishlist page on her Amazon account.</li>
 		</ol>
