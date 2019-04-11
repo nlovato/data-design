@@ -13,8 +13,8 @@
 		<p><strong>Title:</strong> Adding merchandise to a wishlist</p>
 		<p><strong>Description:</strong> Harley wants to add accesories & apparel to her wishlist.</p>
 		<p><strong>Name of User &amp; their role:</strong> Harley, madly in love with 'The Joker' & enjoys terrorizing Gotham City.</p>
-		<p><strong>Usage Preconditions:</strong> Must have Amazon account & be logged in.</p>
-		<p><strong>Usage Postconditions:</strong> Merchandise saved to wishlist & can be easily viewed.</p>
+		<p><strong>Usage Preconditions:</strong> Amazon must have access to apparel and accesories.</p>
+		<p><strong>Usage Postconditions:</strong> Merchandise must be able to be added to a wishlist.</p>
 
 
 		<h3>Interaction Flow:</h3>
