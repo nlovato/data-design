@@ -25,8 +25,8 @@
 			<li><strong>Needs:</strong></li>
 			<ul>
 				<li>Purchase accesories & apparel</li>
-				<li>Preview merchandise before purchase</li>
-				<li>Ability to leave merchandise reviews</li>
+				<li>Preview merchandise before adding to wishlist</li>
+				<li>Ability to check merchandise reviews</li>
 			</ul>
 
 			<li><strong>Frustrations:</strong></li>
