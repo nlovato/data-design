@@ -10,14 +10,10 @@
 	<body>
 
 		<h1>Conceptual Model</h1>
-		<div> class="well"</div>
 
-		<br>
-		<br>
+			<h2>Entities & Attributes</h2>
 
-			<h3>Entities & Attributes</h3>
-
-		<h6>User Account</h6>
+		<h3>User Account</h3>
 		<ul>
 			<li>userId (primary key)</li>
 			<li>userLogin (for account verification)</li>
@@ -26,13 +22,13 @@
 			<li>userPhone</li>
 		</ul>
 
-		<h6>Item</h6>
+		<h3>Item</h3>
 		<ul>
 			<li>itemId</li>
 			<li>itemReview</li>
 		</ul>
 
-		<h6>Add to List</h6>
+		<h3>Add to List</h3>
 		<ul>
 			<li>addListId (foreign key)</li>
 			<li>addWishlist (foreign key)</li>
@@ -43,7 +39,7 @@
 			<li>One account can review and add as many items to a wishlist</li>
 		</ul>
 
-		<p> <hr/> Entity Relationship Diagram <br /></p>
+		<h1><hr/><strong>Entity Relationship Diagram</strong> <br /></h1>
 
 		<br>
 		<br>
