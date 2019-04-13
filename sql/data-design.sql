@@ -22,5 +22,6 @@
 		create table addlist (
 		addList not null,
 		addWishList,
-		foreign key(addList) references(customerId)
+		foreign key(addList),
+		 foreign key(addWishList) references(customerId)
 		);
