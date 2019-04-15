@@ -1,4 +1,4 @@
-	drop table if exists addList;
+	drop table if exists listId;
 	drop table if exists itemId;
 	drop table if exists userId;
 
@@ -19,11 +19,11 @@
 	foreign key(itemId)
 	);
 
-		create table addlist (
-		addList not null,
-		addWishList,
-		foreign key(addList),
-		foreign key(addWishList) references(customerId)
+		create table list (
+		listId not null,
+		wishList,
+		foreign key(listId),
+		foreign key(wishList) references(customerId)
 		);
 
 
