@@ -23,5 +23,5 @@
 		addList not null,
 		addWishList,
 		foreign key(addList),
-		 foreign key(addWishList) references(customerId)
+		foreign key(addWishList) references(customerId)
 		);
