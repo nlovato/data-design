@@ -29,10 +29,12 @@
 			<li>itemReview</li>
 		</ul>
 
-		<h3>List</h3>
+		<h3>Lists</h3>
 		<ul>
+			<li>listUserId (foreign key)</li>
+			<li>listItemId (foreign key)</li>
 			<li>listId (foreign key)</li>
-			<li>wishlist (foreign key)</li>
+			<li>wishList (foreign key)</li>
 		</ul>
 
 		<h3>Relations</h3>
