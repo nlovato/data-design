@@ -24,7 +24,7 @@
 
 		<h3>Item</h3>
 		<ul>
-			<li>itemId (foreign key)</li>
+			<li>itemId (primary key)</li>
 			<li>itemContent</li>
 			<li>itemReview</li>
 		</ul>
