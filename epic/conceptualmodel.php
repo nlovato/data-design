@@ -29,7 +29,7 @@
 			<li>itemReview</li>
 		</ul>
 
-		<h3>Add to List</h3>
+		<h3>List</h3>
 		<ul>
 			<li>addListId (foreign key)</li>
 			<li>addWishlist (foreign key)</li>
