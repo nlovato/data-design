@@ -25,3 +25,5 @@
 		foreign key(addList),
 		foreign key(addWishList) references(customerId)
 		);
+
+
