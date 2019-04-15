@@ -30,6 +30,8 @@
 			<li>Server loads Harley's wishlist page on her Amazon account.</li>
 		</ol>
 
+		<h3><a href="conceptualmodel.php">Conceptual Mode</a> </h3>
+
 		<h5><a href="directory.php">Back to Directory</a</h5>
 
 
