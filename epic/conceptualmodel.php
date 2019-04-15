@@ -31,8 +31,8 @@
 
 		<h3>List</h3>
 		<ul>
-			<li>addListId (foreign key)</li>
-			<li>addWishlist (foreign key)</li>
+			<li>listId (foreign key)</li>
+			<li>wishlist (foreign key)</li>
 		</ul>
 
 		<h3>Relations</h3>
