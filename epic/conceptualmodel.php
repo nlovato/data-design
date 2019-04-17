@@ -33,13 +33,11 @@
 		<ul>
 			<li>listUserId (foreign key)</li>
 			<li>listItemId (foreign key)</li>
-			<li>listId (foreign key)</li>
-			<li>wishList (foreign key)</li>
 		</ul>
 
 		<h3>Relations</h3>
 		<ul>
-			<li>One account can review and add as many items to a wishlist</li>
+			<li>One user can review and add as many items to a wishlist</li>
 		</ul>
 
 		<h1><hr/><strong>Entity Relationship Diagram</strong> <br /></h1>
@@ -47,7 +45,7 @@
 		<br>
 		<br>
 
-		<img src="data-design-erd.jpg" width=" 450px" alt="erd">
+		<img src="data-design-erd.jpg" width=" 800px" alt="erd">
 
 		<br>
 		<br>

@@ -21,8 +21,7 @@
 
 		create table list (
 		listId binary(16) not null,
-		wishList,
-		foreign key(listId),
+		foreign key(listUserId) not null,
 		foreign key(wishList) references(customerId)
 		);
 
