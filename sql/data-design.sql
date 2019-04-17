@@ -1,4 +1,5 @@
 	drop table if exists listId;
+	drop table if exists itemList;
 	drop table if exists itemId;
 	drop table if exists userId;
 
@@ -16,13 +17,23 @@
 	itemContent binary(140) not null,
 	itemReview (itemContent),
 	index(itemId),
-	foreign key(itemId)
+	foreign key(itemId) references item(itemId)
+	);
+
+	create table itemList (
+	   listItemId binary(16) not null,
+	   listId binary(16) not null,
+	   index(itemId),
+	   foreign key(itemId) references item(listItemId)
 	);
 
 		create table list (
+		listUserId binary(16) not null,
+		listItemId binary(16) not null,
 		listId binary(16) not null,
-		foreign key(listUserId) not null,
-		foreign key(wishList) references(customerId)
+		wishList binary(16) not null,
+		foreign key(listUserId) references list(listUserId)
+		foreign key(wishList) references list(wishList)
 		);
 
 
