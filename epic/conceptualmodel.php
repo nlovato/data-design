@@ -28,7 +28,7 @@
 			<li>itemContent</li>
 		</ul>
 
-		<h3>Lists</h3>
+		<h3>List</h3>
 		<ul>
 			<li>listId (primary key)</li>
 			<li>listUserId (foreign key)</li>
