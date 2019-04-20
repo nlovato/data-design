@@ -31,8 +31,16 @@
 
 		<h3>Lists</h3>
 		<ul>
+			<li>listId (primary key)</li>
 			<li>listUserId (foreign key)</li>
 			<li>listItemId (foreign key)</li>
+		</ul>
+
+		<h3>Item List</h3>
+		<ul>
+			<li>itemListListId (foreign key)</li>
+			<li>itemListItemId (foreign key)</li>
+			<li>primary key (itemListListId, itemListItemId)</li>
 		</ul>
 
 		<h3>Relations</h3>

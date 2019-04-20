@@ -1,39 +1,68 @@
-	drop table if exists listId;
-	drop table if exists itemList;
-	drop table if exists itemId;
-	drop table if exists userId;
+	/**
+	these statements will drop the tables and re-add them
+	 */
 
-		create table user (
-		userId binary(16) not null,
-		userLogin varchar(32) not null,
-		userHAsh char(97) not null,
-		userEmail varchar(128) not null,
-		userPhone varchar(32),
-		primary key(userId)
-		);
+	drop table if exists itemList;
+	drop table if exists list;
+	drop table if exists item;
+	drop table if exists user;
+
+/**
+user entity
+ */
+
+	create table user (
+	userId binary(16) not null,
+	userLogin varchar(32) not null,
+	userHAsh char(97) not null,
+	userEmail varchar(128) not null,
+	userPhone varchar(32),
+	primary key(userId)
+	);
+
+/**
+item entity
+ */
 
 	create table item (
 	itemId binary(16) not null,
-	itemContent binary(140) not null,
-	itemReview (itemContent),
+	itemContent varchar(140) not null,
 	index(itemId),
-	foreign key(itemId) references item(itemId)
+	foreign key(itemId) references item(itemId),
+	primary key(itemId)
 	);
+
+/**
+create the list entity
+ */
+
+	create table list (
+	listId binary(16) not null,
+	listUserId binary(16) not null,
+	listName varchar(32) not null,
+	foreign key(listUserId) references user(UserId),
+	primary key(listId)
+	);
+
+/**
+itemList entity (weak entity from many to one
+for user --> list
+ */
+
 
 	create table itemList (
-	   listItemId binary(16) not null,
-	   listId binary(16) not null,
-	   index(itemId),
-	   foreign key(itemId) references item(listItemId)
+	itemListListId binary(16) not null,
+	itemListItemId binary(16) not null,
+	index(itemListListId),
+	index(itemListItemId),
+	foreign key(itemListListId) references list(listId),
+   foreign key(itemListItemId) references item(itemId),
+/**
+primary key = composite foreign key; with two foreign keys
+*/
+	primary key(itemListListId, itemListItemId)
+
 	);
 
-		create table list (
-		listUserId binary(16) not null,
-		listItemId binary(16) not null,
-		listId binary(16) not null,
-		wishList binary(16) not null,
-		foreign key(listUserId) references list(listUserId)
-		foreign key(wishList) references list(wishList)
-		);
 
 
