@@ -26,7 +26,6 @@
 		<ul>
 			<li>itemId (primary key)</li>
 			<li>itemContent</li>
-			<li>itemReview</li>
 		</ul>
 
 		<h3>Lists</h3>
