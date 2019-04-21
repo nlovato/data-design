@@ -2,16 +2,16 @@
 	these statements will drop the tables and re-add them
 	 */
 
-	drop table if exists itemList;
-	drop table if exists list;
-	drop table if exists item;
-	drop table if exists user;
+drop table if exists itemList;
+drop table if exists list;
+drop table if exists item;
+drop table if exists user;
 
 /**
 user entity
  */
 
-	create table user (
+create table user (
 	userId binary(16) not null,
 	userLogin varchar(64) not null,
 	userHAsh char(97) not null,
@@ -24,11 +24,10 @@ user entity
 item entity
  */
 
-	create table item (
+create table item (
 	itemId binary(16) not null,
 	itemContent varchar(140) not null,
 	index(itemId),
-	foreign key(itemId) references item(itemId),
 	primary key(itemId)
 	);
 
@@ -36,7 +35,7 @@ item entity
 create the list entity
  */
 
-	create table list (
+create table list (
 	listId binary(16) not null,
 	listUserId binary(16) not null,
 	listName varchar(32) not null,
@@ -50,7 +49,7 @@ for user --> list
  */
 
 
-	create table itemList (
+create table itemList (
 	itemListListId binary(16) not null,
 	itemListItemId binary(16) not null,
 	index(itemListListId),
