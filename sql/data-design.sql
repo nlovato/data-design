@@ -60,8 +60,7 @@ create table itemList (
 primary key = composite foreign key; with two foreign keys
 */
 	primary key(itemListListId, itemListItemId)
-
-	);
+);
 
 
 
