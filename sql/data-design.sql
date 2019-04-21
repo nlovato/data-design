@@ -13,7 +13,7 @@ user entity
 
 	create table user (
 	userId binary(16) not null,
-	userLogin varchar(32) not null,
+	userLogin varchar(64) not null,
 	userHAsh char(97) not null,
 	userEmail varchar(128) not null,
 	userPhone varchar(32),
