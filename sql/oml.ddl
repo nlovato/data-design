@@ -18,25 +18,30 @@
 	values (UNHEX ('52c80658d2fd47838a3ebbe092652f5f'), (UNHEX ('010f083fb40742238a04c5f700ea9d9f')));
 
 /*
- Creating update statement
+ Create update statement
 */
 
 	update user set userEmail = 'Email Sent' where userId =
 	'no email';
 
 /*
- Creating delete statement
+ Create delete statement
  */
 
  	delete from itemList where itemListListId = (UNHEX ('237f100586714599baeb33f5be1bd9f0'));
 
 
 /*
- Creating statement using primary key as the selector
+ Create statement using primary key as the selector
 */
 
 	select listId from list where listId = (UNHEX('52c80658d2fd47838a3ebbe092652f5f'));
 
+/*
+ Create join statement
+ */
+
+	select item.itemId, itemList.itemListListId from item inner join itemList on item.itemId = itemList.itemListItemId where item.itemId = UNHEX ('010f083fb40742238a04c5f700ea9d9f');
 /*
  Creating statement for tweet number of likes
 
