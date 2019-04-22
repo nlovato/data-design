@@ -1,6 +1,6 @@
-/**
-** Inserting three executive insert statements
-**/
+/*
+ Inserting three executive insert statements
+*/
 
 
 	insert into user values (UNHEX ('237f100586714599baeb33f5be1bd9f0'),
@@ -11,36 +11,36 @@
 
 
 	insert into list (listId, listUserId, listName)
-	values(UNHEX ('52c80658d2fd47838a3ebbe092652f5f'), UNHEX ('237f100586714599baeb33f5be1bd9f0'), 'wishList');
+	values(UNHEX ('52c80658d2fd47838a3ebbe092652f5f'), (UNHEX ('237f100586714599baeb33f5be1bd9f0')), 'wishList');
 
 
 	insert into itemList (itemListListId, itemListItemId)
-	values (UNHEX ('52c80658d2fd47838a3ebbe092652f5f'), UNHEX ('010f083fb40742238a04c5f700ea9d9f');
+	values (UNHEX ('52c80658d2fd47838a3ebbe092652f5f'), (UNHEX ('010f083fb40742238a04c5f700ea9d9f')));
 
-/**
-** Creating update statement
-**/
+/*
+ Creating update statement
+*/
 
-	update user set userEmail = 'Item Added to List Succesfully' where itemList =
-	'Empty Item List';
+	update user set userEmail = 'Email Sent' where userId =
+	'no email';
 
-/**
-** Creating delete statement
+/*
+ Creating delete statement
  */
 
- 	delete from itemList where itemListListId = (UNHEX ('237f100586714599baeb33f5be1bd9f0');
+ 	delete from itemList where itemListListId = (UNHEX ('237f100586714599baeb33f5be1bd9f0'));
 
 
-/**
-** Creating statement using primary key as the selector
-**/
+/*
+ Creating statement using primary key as the selector
+*/
 
-	select itemListListId, itemListItemId from user where userId = unhex('237f100586714599baeb33f5be1bd9f0');
+	select listId from list where listId = (UNHEX('52c80658d2fd47838a3ebbe092652f5f'));
 
-/**
-** Creating statement for tweet number of likes
-**/
-
-	select likeProfileId, likeTweetId, likeDate from tweet where
+/*
+ Creating statement for tweet number of likes
 
 
+SELECT COUNT (tweetProfileId) from `like` WHERE tweetID (UNHEX('1e953a0e2c4848448433e2b8ef00f2f7'));
+
+*/
